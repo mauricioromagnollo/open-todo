@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-noframework-api",
+  "version": "1.0.0",
+  "description": "Simple API developed in Node.js without any framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh script.sh",
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x0n4d0/nodejs-noframework-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x0n4d0/nodejs-noframework-api/issues"
+  },
+  "homepage": "https://github.com/x0n4d0/nodejs-noframework-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
